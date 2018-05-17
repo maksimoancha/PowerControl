@@ -1,0 +1,17 @@
+; TestDll.def : Declares the module parameters for the DLL.
+
+
+LIBRARY      "DemoCLibrary.dll"
+
+EXPORTS
+	LockUser         @1
+	PowerOff         @2
+	UserLogOut         @3
+	RestartSystem         @4
+	SeepSystem         @5	
+	HibernateSystem         @6
+
+
+	
+	
+    ; Explicit exports can go here
